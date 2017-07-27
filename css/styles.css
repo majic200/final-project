@@ -1,0 +1,167 @@
+/*-- Fonts --*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Tangerine');
+
+/*-- Universals --*/
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6, li, #main-title {
+    font-family: 'Tangerine', cursive;
+    color: #ffffff;
+    text-shadow: 4px 4px #262626;    
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*-- Header Styles --*/
+
+#logo-img {
+    height: 180px;
+    float: left;
+}
+
+header {
+    height: 200px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+}
+
+#main-title {
+    font-size: 5em;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    top: 10px;
+    left: 32px;
+}
+
+#title-box {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+nav {
+    position: absolute;
+    top: 75px;
+    right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 45px;
+}
+
+nav ul li {
+
+}
+
+/*-- Main Styles --*/
+
+main {
+    height: 1000px;
+    width: 100%;
+}
+
+main .text-center {
+    font-size: 5em;
+    text-align: center;
+}
+
+#main-text {
+    text-align: center;
+}
+
+#parent {
+    height: 700px;
+    width: 100%;
+}
+
+.box {
+    height: 45%;
+    width:45%;
+    border:2px solid #ffffff;
+    margin: 2.5%;
+}
+
+.box p, .box h1 {
+    padding: 30px;
+    text-align: center;
+    
+}
+
+#one {
+    float: left;
+}
+
+#two {
+    float: left;
+}
+
+#three {
+    float: right;
+}
+
+#four {
+    float: right;
+}
+
+/*-- Footer Styles --*/
+
+footer {
+    clear: both;
+    background-color: #000000;
+    padding: 24px 0px;
+    border: 2px solid #ffffff;
+}
+
+.fa {
+    margin: 0px 10px 0px 10px;
+}
+
+.fa-facebook {
+    color: #ffffff;
+}
+
+.fa-twitter {
+    color: #ffffff;
+}
+
+.fa-youtube {
+    color: #ffffff;
+}
+
+#copyright {
+    color: #ffffff;
+}
