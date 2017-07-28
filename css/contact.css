@@ -1,0 +1,47 @@
+/*-- Contact Styles --*/
+
+a {
+    color: #ffffff;
+}
+section {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+section iframe {
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+
+#addy {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 95px;
+    right: 355px;
+    border: 2px solid #ffffff;
+}
+
+#addy address {
+    color: #ffffff;
+    position: relative;
+    top: 110px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#map-wrapper {
+    clear: both;
+    width: 70%;
+    height: 700px;
+    position: relative;
+}
+
+#map-wrapper iframe {
+    position: absolute;
+    width: 60%;
+    top: 45px;
+    right: 10px;
+}
