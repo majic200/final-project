@@ -16,11 +16,11 @@ section iframe {
 }
 
 #addy {
-    width: 400px;
+    width: 25%;
     height: 400px;
     position: absolute;
     top: 95px;
-    right: 355px;
+    right: 280px;
     border: 2px solid #ffffff;
 }
 
