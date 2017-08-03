@@ -29,12 +29,14 @@ body {
 h1,h2,h3,h4,h5,h6, li, #main-title {
     font-family: 'Tangerine', cursive;
     color: #ffffff;
-    text-shadow: 4px 4px #262626;    
+    text-shadow: 4px 4px #262626;
+    padding:10px;
 }
 
 p, a {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
+    padding:10px;
 }
 
 .text-center {
@@ -83,9 +85,6 @@ nav ul li {
     font-size: 45px;
 }
 
-nav ul li {
-
-}
 
 /*-- Main Styles --*/
 
